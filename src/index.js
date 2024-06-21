@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import DateTime from './DateTime';
 
+alert('New Currency Setup');
+
 function MyForm() {
   const [usd, setUsd] = useState(0);
   const [eur, setEur] = useState(0);
